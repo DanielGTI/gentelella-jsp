@@ -10,7 +10,7 @@
 
                 <%@include file="sidemenu.jsp" %>
                 <%@include file="topmenu.jsp" %>    
-                <%@include file="content.jsp" %>
+                <%@include file="view/content.jsp" %>
                 <%@include file="footer.jsp" %>
 
             </div>
