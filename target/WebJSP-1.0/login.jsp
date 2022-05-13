@@ -10,17 +10,20 @@
             <div class="login_wrapper">
                 <div class="animate form login_form">
                     <section class="login_content">
-                        <form>
+                        <form action="./Logar" method="post">
                             <h1>Login AULA</h1>
                             <div>
-                                <input type="text" class="form-control" placeholder="Usuário" required="" />
+                                <input type="text" name="user" class="form-control" placeholder="Usuário" required="" />
                             </div>
                             <div>
-                                <input type="password" class="form-control" placeholder="Senha" required="" />
+                                <input type="password" name="senha" class="form-control" placeholder="Senha" required="" />
                             </div>
                             <div>
-                                <a class="btn btn-default submit" href="logar.jsp">Logar</a>
-                                <a class="reset_pass" href="#">Esqueceu a sua senha?</a>
+                                <input type="submit" value="Login">
+                                <!-- 
+                                    <a class="btn btn-default submit" href="logar.jsp">Logar</a>
+                                    <a class="reset_pass" href="#">Esqueceu a sua senha?</a>
+                                -->
                             </div>
                             <div class="clearfix"></div>
                             <div class="separator">
